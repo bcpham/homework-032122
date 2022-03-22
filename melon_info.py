@@ -21,12 +21,11 @@ from melons import melon_informat
 
 def print_melon(melon_name):
 
-    for melon_names in melon_format:
-        if melon_name == melon_format[0]:
-            print(melon_format[0] \n + "price: " + 
-            "seedless: " +
-            "flesh_color: " +
-            "rind_color: " +
-            "average_weight: " + )
+    for melon, info in melon_informat:
+        print(melon)
+        
+        #if melon_informat[melon] == melon_name:
+            #print(melon_name)
 
 print_melon("Honeydew")
+

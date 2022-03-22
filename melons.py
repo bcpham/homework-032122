@@ -23,11 +23,56 @@
 # }
 
 ##########################################################################
+#I realized this attempt wouldn't help incorporate the key, value pairs for 5 types of info
 
-melon_informat = {
-    "Honeydew":(0.99, True, None, None, None), 
-    "Crenshaw":(2.00, False, None, None, None),
-    "Crane":(2.50, False, None, None, None),
-    "Casaba":(2.50, False, None, None, None),
-    "Cantaloupe":(0.99, False, None, None, None)
+# melon_informat = {
+#     "Honeydew":(0.99, True, None, None, None), 
+#     "Crenshaw":(2.00, False, None, None, None),
+#     "Crane":(2.50, False, None, None, None),
+#     "Casaba":(2.50, False, None, None, None),
+#     "Cantaloupe":(0.99, False, None, None, None)
+# }
+
+##########################################################################
+
+melons = {
+    'Honeydew': {
+        'price': 0.99,
+        'seedless': True,
+        'flesh_color': None,
+        'rind_color': None,
+        'average_weight': None,
+    },
+
+    'Crenshaw': {
+        'price': 2.00,
+        'seedless': False,
+        'flesh_color': None,
+        'rind_color': None,
+        'average_weight': None,
+    },
+
+    'Crane': {
+        'price': 2.50,
+        'seedless': False,
+        'flesh_color': None,
+        'rind_color': None,
+        'average_weight': None,
+    },
+
+    'Casaba': {
+        'price': 2.50,
+        'seedless': False,
+        'flesh_color': None,
+        'rind_color': None,
+        'average_weight': None,
+    },
+
+    'Cantaloupe': {
+        'price': 0.99,
+        'seedless': False,
+        'flesh_color': None,
+        'rind_color': None,
+        'average_weight': None,
+    }
 }
