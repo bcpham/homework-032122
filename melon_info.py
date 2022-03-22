@@ -17,15 +17,18 @@
 # for i in melon_names:
 #     print_melon(melon_names[i], melon_prices[i], melon_seedlessness[i])
 
-from melons import melon_informat
+from melons import melons_informat
 
-def print_melon(melon_name):
+def print_melons(melons):
 
-    for melon, info in melon_informat:
-        print(melon)
-        
+    for melon, infos in melons_informat.items():
+        print(melon.upper()) 
+
+        for info, value in infos.items():
+            print(f'{info}:{value}')
+            
+        #this was when I attempted to work with lists...
         #if melon_informat[melon] == melon_name:
             #print(melon_name)
 
-print_melon("Honeydew")
-
+print_melons("melons")
